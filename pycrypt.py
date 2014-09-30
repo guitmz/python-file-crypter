@@ -1,3 +1,6 @@
+# 2014 copyright Guilherme Thomazi (thomazi@linux.com)
+# Released under the GPL v2 
+
 import random, base64
 from hashlib import sha1
 
