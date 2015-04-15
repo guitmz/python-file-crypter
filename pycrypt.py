@@ -62,7 +62,7 @@ elif destiny == 'D':
 	originalf = open(fiilepath, "rb")
 	file = originalf.read()
 	originalf.close()
-	destpath = raw_input("Enter the destination path of the encrypted file (file can have any extension): ")
+	destpath = raw_input("Enter the destination path of the decrypted file (name it with the correct extension): ")
 	key =  raw_input("Enter the key to decrypt the file: ")
 	dest = open(destpath, "wb")
 	data = decrypt(file, key)
